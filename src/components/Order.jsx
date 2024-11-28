@@ -70,7 +70,7 @@ const Order = () => {
             required
           />
         </div>
-        {error && <p style={{ color: "red" }}>{error}</p>}
+        {error && <p>{error}</p>}
         <button type="submit" disabled={loading}>
           {loading ? "Processing..." : "Initiate Order"}
         </button>
